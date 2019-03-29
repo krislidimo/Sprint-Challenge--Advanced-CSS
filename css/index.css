@@ -170,6 +170,9 @@ p {
   height: 100px;
   background: #F6F6F6;
   border-bottom: 1px solid #F1F1F1;
+  position: fixed;
+  top: 0;
+  opacity: 0.8;
 }
 .full-width-container .nav-container {
   display: flex;
@@ -204,6 +207,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  padding-top: 100px;
 }
 .home .intro .header-img {
   width: 100%;
