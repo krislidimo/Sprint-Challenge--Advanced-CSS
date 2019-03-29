@@ -32,6 +32,21 @@
       height: 100%;
       margin-top: 20px;
     }
+
+    @media @phone {
+      justify-content: center;
+      .blast {
+        width: 90%;
+      }
+
+      .sky {
+        display: none;
+      }
+
+      .launch {
+        display: none;
+      }
+    }
   }
 
   .visit-planets {
@@ -81,6 +96,26 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+
+    @media @phone {
+      flex-direction: column-reverse;
+      margin-top: 20px;
+      padding: 20px 20px;
+
+      .walk-img {
+        width: 100%;
+        margin-left: 0;
+      }
+
+      .walk-text {
+        width: 100%;
+        margin-top: 20px;
+
+        .btn {
+          .new-btn(70px, 100%, 1.8rem, 4px);
+        }
       }
     }
   }
