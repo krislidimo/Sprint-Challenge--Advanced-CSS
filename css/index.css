@@ -1,3 +1,8 @@
+.btn-hover {
+  background: white;
+  color: #22283A;
+  border: 2px solid #22283A;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,22 +173,25 @@ p {
 }
 .full-width-container .nav-container {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  flex-direction: column;
 }
 .full-width-container .nav-container h1 {
   margin-top: 12px;
-  font-size: 40px;
+  font-size: 4rem;
   margin-bottom: 20px;
 }
 .full-width-container .nav-container .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   width: 47%;
 }
 .full-width-container .nav-container .nav a {
   text-decoration: none;
-  font-size: 16.5px;
+  font-size: 1.65rem;
   color: #454A59;
 }
 footer {
@@ -217,7 +225,7 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .home .visit-planets {
   padding: 15px;
@@ -243,6 +251,23 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 35px;
+  width: 100px;
+  background: #22283A;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.8rem;
+}
+.home .walk .walk-text .btn:hover {
+  background: white;
+  color: #22283A;
+  border: 2px solid #22283A;
 }
 .home .walk .walk-img {
   width: 46%;

@@ -1,1 +1,24 @@
 // Mixins Here
+
+.custom-layout (@j:flex-start, @a:stretch, @d:row) {
+	display: flex;
+	justify-content: @j;
+	align-items: @a;
+	flex-direction: @d;
+}
+
+.new-btn(@height, @width, @bg-color:@btn-bg-color, @t-color:white, @ft-size, @radius) {
+	.custom-layout(center, center, );
+	height: @height;
+	width: @width;
+	background: @bg-color;
+	color: @t-color;
+	border-radius: @radius;
+	font-size: @ft-size;
+}
+
+.btn-hover{
+	background: white;
+    color: @btn-bg-color;
+    border: 2px solid @btn-bg-color;
+}
