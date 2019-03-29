@@ -193,7 +193,7 @@ p {
   text-decoration: none;
   font-size: 1.65rem;
   color: #454A59;
-  margin: 0 15px;
+  margin: 0 1px;
 }
 footer {
   color: #22283B;
@@ -228,7 +228,7 @@ footer {
   height: 100%;
   margin-top: 20px;
 }
-@media (min-width:500px) {
+@media (max-width: 500px) {
   .home .space-images {
     justify-content: center;
   }
@@ -293,7 +293,7 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-@media (min-width:500px) {
+@media (max-width: 500px) {
   .home .walk {
     flex-direction: column-reverse;
     margin-top: 20px;
